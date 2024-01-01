@@ -370,7 +370,7 @@ memory: guest=512, host=256
 # The Bochs BIOS currently supports only the option "fastboot" to skip the
 # boot menu delay.
 #=======================================================================
-romimage: file=$BXSHARE/BIOS-bochs-latest, options=fastboot
+romimage: file=$BXSHARE/BIOS-bochs-legacy, options=fastboot
 #romimage: file=$BXSHARE/bios.bin-1.13.0 # http://www.seabios.org/SeaBIOS
 #romimage: file=mybios.bin, address=0xfff80000 # 512k at memory top
 
